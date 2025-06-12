@@ -1,0 +1,174 @@
+[
+    {
+        "title": "Аккумуляторы",
+        "children": [
+            {
+                "title": "АКБ MAGNUM",
+                "children": [
+                    "MAGNUM 60Ah", 
+                    "MAGNUM 75Ah",
+                    "MAGNUM 90Ah",
+                    "MAGNUM 132Ah",
+                    "MAGNUM 190Ah",
+                    "MAGNUM 230Ah"
+                ]
+            },
+            {
+                "title": "АКБ ЗВЕРЬ",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "ТЮМЕНСКИЙ АККУМУЛЯТОРНЫЙ ЗАВОД",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ AKOM",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ BARS",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ ENRUN",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ UNIX (WESTA)",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ EDCON",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ AFA",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ BOSCH",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "АКБ MUTLU",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "ОРИГИНАЛЬНЫЕ АКБ",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            },
+            {
+                "title": "ГЕЛИЕВЫЕ АКБ OPTIMA",
+                "children": [
+                    "test",
+                    "test",
+                    "test",
+                    "test",
+                    "test"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "АВТОМАСЛА",
+        "children": [
+            {
+                "title": "test",
+                "children": [
+                    "test",
+                    "test"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "АКСЕССУАРЫ",
+        "children": [
+            {
+                "title": "test",
+                "children": [
+                    "test",
+                    "test"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "АВТОХИМИЯ",
+        "children": [
+            {
+                "title": "test",
+                "children": [
+                    "test",
+                    "test"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+$color-white: #FFFFFF;
+$color-white-gray: #EDEDED;
+$color-red: #D42E12;
+$color-black: #0E0E0E;
+$color-black-two: #1D1D1D;
+$font-stack: "Montserrat", sans-serif;
+
+.containerService {
+    width: 100vw;
+    height: 80vh;
+    background-color: $color-white-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCenter {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+
+    span:first-of-type {
+        color: $color-black;
+        width: 90%;
+        font-family: $font-stack;
+        font-size: clamp(0.1vw, min(2vw, 4vh), 6vw);
+        font-weight: 600;
+        text-align: center;
+        text-decoration: underline 15% $color-red;
+        text-underline-offset: 30%;
+        text-transform: uppercase;
+    }
+
+    span:last-of-type {
+        color: $color-black;
+        width: 90%;
+        font-family: $font-stack;
+        font-size: clamp(0.1vw, min(1.5vw, 3vh), 3vw);
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .containerCardService {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 4%;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 0;
+
+            span {
+                color: $color-white;
+                width: 90%;
+                font-family: $font-stack;
+                font-size: clamp(0.1vw, min(1.5vw, 3vh), 3vw);
+                font-weight: 500;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            button {
+                background-color: #00000000;
+                border: $color-red 0.3vw solid;
+                color: $color-white;
+                width: 90%;
+                font-family: $font-stack;
+                font-size: clamp(0.1vw, min(1.3vw, 2vh), 3vw);
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+
+        div:before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        div:first-of-type {
+            width: 48%;
+            height: 100%;
+            background-image: url('~assets/service/diagnostic.jpg');
+            background-size: cover;
+            gap: 20%;
+
+            button {
+                width: 40%;
+                height: 15%;
+            }
+        }
+
+        div:last-of-type {
+            width: 48%;
+            height: 100%;
+            background-image: url('~assets/service/reverse.jpg');
+            background-size: cover;
+            gap: 20%;
+
+            button {
+                width: 40%;
+                height: 15%;
+            }
+        }
+
+    }
+}

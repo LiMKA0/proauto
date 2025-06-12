@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+$color-white: #FFFFFF;
+$color-red: #D42E12;
+$color-black: #0E0E0E;
+$font-stack: "Montserrat", sans-serif;
+
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: $color-black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+
+    .logoSvg {
+        width: 10%;
+        height: 80%;
+        cursor: pointer;
+    }
+
+    a {
+        margin: 0 10px;
+        color: $color-white;
+        font-family: $font-stack;
+        font-weight: 500;
+        font-size: clamp(0.1vw, min(1vw, 2vh), 3vw);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: $color-red;
+        transition: 0.7s;
+    }
+
+    button {
+        background-color: #00000000;
+        border: $color-red 0.3vw solid;
+        padding: 0.8% 2%;
+        color: $color-white;
+        font-family: $font-stack;
+        font-weight: 500;
+        font-size: clamp(0.1vw, min(1vw, 2vh), 3vw);
+        cursor: pointer;
+    }
+
+    .containerIcon {
+        width: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10%;
+
+        img {
+            width: 20%;
+            height: 1%;
+            cursor: pointer;
+        }
+
+        .countBugList {
+            width: 2vw;
+            height: 2vw;
+            background-color: $color-red;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.banner {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    span {
+        width: 30%;
+        position: absolute;
+        left: 15%;
+        top: 30%;
+        color: $color-white;
+        font-family: $font-stack;
+        font-weight: 700;
+        font-size: clamp(0.1vw, min(3vw, 5vh), 3vw)
+    }
+
+    button {
+        position: absolute;
+        left: 15%;
+        top: 70%;
+        background-color: #00000000;
+        padding: 0.8% 2%;
+        border: $color-red 0.3vw solid;
+
+
+        a {
+            color: $color-white;
+            font-family: $font-stack;
+            font-weight: 500;
+            font-size: clamp(0.1vw, min(1vw, 2vh), 3vw);
+            text-decoration: none;
+        }
+    }
+
+    .containerRectangle {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -50%);
+
+        div:first-child {
+            width: 8vw;
+            height: 0.5vh;
+            background-color: $color-red;
+        }
+
+        div {
+            width: 8vw;
+            height: 0.5vh;
+            background-color: $color-white;
+        }
+    }
+}

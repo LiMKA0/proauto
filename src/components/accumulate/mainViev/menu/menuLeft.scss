@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+$color-white: #FFFFFF;
+$color-white-gray: #EDEDED;
+$color-red: #D42E12;
+$color-black: #0E0E0E;
+$color-black-two: #1D1D1D;
+$color-childrenIn: #7c7c7c;
+$font-stack: "Montserrat", sans-serif;
+
+
+.containerMenu {
+    width: 100%;
+    height: 100%;
+
+    color: $color-white;
+    font-family: $font-stack;
+    font-weight: 500;
+    font-size: clamp(0.1vw, min(1.5vw, 1.8vh), 3vw);
+}
+
+.parentItem {
+    width: 100%;
+    height: fit-content;
+}
